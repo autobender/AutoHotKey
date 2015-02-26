@@ -33,6 +33,9 @@ else
 				;Hopp over butikk 6
 				if skriver = 106
 				{}
+				;Hopp over butikk 9
+				else if skriver = 109
+				{}
 				;Hopp over butikk 10
 				else if skriver = 110
 				{}
