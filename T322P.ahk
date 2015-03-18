@@ -25,12 +25,12 @@ else
 	    MsgBox, Du avbroyt prossessen.
 	else
 	{
-		InputBox, split, T43P, `nHvilken split 0nsker du? (skriv tall)`n 1 Artikkel`n 2 Artikkel farge`n 3 Art. Farge Str`n 4 Sesong`n 5 Varegruppe
+		InputBox, split, T43P, `nHvilken split 0nsker du? (skriv tall)`n 1 Artikkel   2 Artikkel farge`n 3 Art. Farge Str   4 Sesong`n 5 Varegruppe
 		if ErrorLevel
 		    MsgBox, Du avbroyt prossessen.
 		else
 		{
-			InputBox, layout, T322P, `nHvilken layout ønsker du?`n 1 Uten BF   2 Med BF`n 3 Avvik mot opptalt      4 Sesong`n 5 Varegruppe
+			InputBox, layout, T322P, `nHvilken layout 0nsker du?`n 1 Uten BF   2 Med BF`n 3 Avvik mot opptalt      4 Sesong`n 5 Varegruppe
 			if ErrorLevel
 			    MsgBox, Du avbroyt prossessen.
 			else
@@ -74,13 +74,12 @@ else
 								;1 sekund pause
 								Send T322P`n
 								Sleep 100
-								Send `n
 								;Send skriver
 								Sleep 100
 								Send %skriver%`n
 								Sleep 100
 								;Send butikk
-								Send `n
+								Send %A_index%`n
 								Sleep 100
 								;Send Fra varegruppe
 								Send `n
