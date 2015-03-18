@@ -41,7 +41,7 @@ else
 				else
 				{   
 			    	;Kjøres antall butikker.
-					Loop 2
+					Loop 27
 					{
 					; Øker skriver med en. I tråd med butikknummer
 					skriver += 1
