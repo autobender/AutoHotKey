@@ -104,7 +104,7 @@ else
 								Sleep 100
 								;send layout
 								Send %layout%`n
-								Sleep 3000
+								Sleep 20000
 							}
 							;Hvis Putty ikke er åpent.
 							else
